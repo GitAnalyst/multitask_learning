@@ -1,3 +1,21 @@
+# Steps
+Create virtual environment (run once) 
+`conda env create --file multitask-env.txt`  
+Activate environment  
+`conda activate multitask`  
+
+
+Save virtual environment (optional)  
+`conda list --explicit > multitask-env.txt`  
+
+Deactivate environment  
+`conda deactivate`  
+
+Useful:  
+* [Conda cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)  
+
+# Task instructions
+
 ## Task:
 Create a model which solves task1 and task2 simultaneously using NN. The definition tasks are provided below. The schema of the model is also added.
 
